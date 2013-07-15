@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0563A6171DC1CC00D6251A /* ACFetchNewsPost.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0563A5171DC1CC00D6251A /* ACFetchNewsPost.m */; };
+		CE307A2E176705B7004ABF7F /* ACIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE307A2D176705B7004ABF7F /* ACIndicatorView.m */; };
+		CE307A3417672082004ABF7F /* ACNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE307A3317672082004ABF7F /* ACNavigationController.m */; };
+		CE456F31176F512E000AC705 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE456F30176F512E000AC705 /* icon.png */; };
+		CE456F33176F515A000AC705 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE456F32176F515A000AC705 /* icon@2x.png */; };
+		CE4BD74A172178570043E4E3 /* NSDateFormatter+ACAdditionFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4BD749172178570043E4E3 /* NSDateFormatter+ACAdditionFormatter.m */; };
+		CE72BE96175D7D3F003656B3 /* ACWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE72BE95175D7D3F003656B3 /* ACWebController.m */; };
+		CE72BE9E175E7361003656B3 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE72BE9D175E7361003656B3 /* iAd.framework */; };
+		CE9EDA9C1753F3BD00D2CE80 /* CustomTableView0.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9EDA971753F3BD00D2CE80 /* CustomTableView0.m */; };
+		CE9EDA9D1753F3BD00D2CE80 /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9EDA991753F3BD00D2CE80 /* CustomTableView.m */; };
+		CE9EDA9E1753F3BD00D2CE80 /* ACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9EDA9B1753F3BD00D2CE80 /* ACViewController.m */; };
+		CE9EDABF1757556D00D2CE80 /* CustomSubCatTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9EDABE1757556D00D2CE80 /* CustomSubCatTableView.m */; };
+		CEA7E151177C1EFD00C06C5F /* Newstly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEA7E14F177C1EFD00C06C5F /* Newstly.xcdatamodeld */; };
+		CEA7E155177C349500C06C5F /* ACOperationOriginator.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA7E154177C349500C06C5F /* ACOperationOriginator.m */; };
+		CEAD91081726223200638954 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD91071726223200638954 /* CoreData.framework */; };
+		CEBC022B17707F46007FEC4B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBC022A17707F46007FEC4B /* logo.png */; };
+		CED24FCE17340D1E0029C5E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED24FCD17340D1E0029C5E9 /* QuartzCore.framework */; };
+		CED24FD117340EA50029C5E9 /* ACHeadLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CED24FD017340EA50029C5E9 /* ACHeadLine.m */; };
+		CED4CBA9177C8CED005A2297 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CED4CBA6177C8CED005A2297 /* HTMLNode.m */; };
+		CED4CBAA177C8CED005A2297 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CED4CBA8177C8CED005A2297 /* HTMLParser.m */; };
+		CED4CBAD177C9B0B005A2297 /* ACOperationSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = CED4CBAC177C9B0B005A2297 /* ACOperationSorting.m */; };
+		CED4CBB0177CA33F005A2297 /* ACChannelxml.m in Sources */ = {isa = PBXBuildFile; fileRef = CED4CBAF177CA33E005A2297 /* ACChannelxml.m */; };
+		CED4CBB3177CA358005A2297 /* ACPostxml.m in Sources */ = {isa = PBXBuildFile; fileRef = CED4CBB2177CA358005A2297 /* ACPostxml.m */; };
+		CED4CBB6177DD44B005A2297 /* ACAbstractItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CED4CBB5177DD44B005A2297 /* ACAbstractItem.m */; };
+		CED4CBB9177DD44C005A2297 /* ACNewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CED4CBB8177DD44B005A2297 /* ACNewsItem.m */; };
+		CED4CBEA177F36AF005A2297 /* ACFeedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CED4CBE9177F36AE005A2297 /* ACFeedManager.m */; };
+		CEDBAC38172ED81D00D23CE0 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDBAC37172ED81D00D23CE0 /* libxml2.dylib */; };
+		CEE2614D172EA998008734BA /* ACCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE2614C172EA998008734BA /* ACCustomCell.m */; };
+		CEE2614F172EA9E8008734BA /* ACCustCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE2614E172EA9E8008734BA /* ACCustCell.xib */; };
 		CEEE44D01713D891000FB08D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEE44CF1713D891000FB08D /* UIKit.framework */; };
 		CEEE44D21713D891000FB08D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEE44D11713D891000FB08D /* Foundation.framework */; };
 		CEEE44D41713D891000FB08D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEE44D31713D891000FB08D /* CoreGraphics.framework */; };
@@ -16,9 +45,71 @@
 		CEEE44E21713D891000FB08D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE44E11713D891000FB08D /* Default.png */; };
 		CEEE44E41713D891000FB08D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE44E31713D891000FB08D /* Default@2x.png */; };
 		CEEE44E61713D891000FB08D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEE44E51713D891000FB08D /* Default-568h@2x.png */; };
+		CEEE44F417143CD3000FB08D /* ACChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEE44F317143CD3000FB08D /* ACChannel.m */; };
+		CEEE44F717143D31000FB08D /* ACPost.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEE44F617143D31000FB08D /* ACPost.m */; };
+		CEEE44FC17143FA3000FB08D /* ACConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEE44FB17143FA3000FB08D /* ACConnection.m */; };
+		CEFF20B61769E7D6006A49C1 /* 176-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFF20B51769E7D6006A49C1 /* 176-ipad.png */; };
+		CEFF20B81769E80F006A49C1 /* 190-bank.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFF20B71769E80F006A49C1 /* 190-bank.png */; };
+		CEFF20BA1769E995006A49C1 /* 166-newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFF20B91769E995006A49C1 /* 166-newspaper.png */; };
+		CEFF20BC1769EC2F006A49C1 /* stock_market_30.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFF20BB1769EC2F006A49C1 /* stock_market_30.png */; };
+		CEFF20BE1769ECED006A49C1 /* stats_line_chart_30.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFF20BD1769ECED006A49C1 /* stats_line_chart_30.png */; };
+		CEFF20C01769ED6A006A49C1 /* 153-guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFF20BF1769ED6A006A49C1 /* 153-guitar.png */; };
+		CEFF20C21769EE8B006A49C1 /* 180-stickynote.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFF20C11769EE8B006A49C1 /* 180-stickynote.png */; };
+		CEFF20C41769EEBA006A49C1 /* 169-8ball.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFF20C31769EEBA006A49C1 /* 169-8ball.png */; };
+		CEFF20C61769EF20006A49C1 /* 196-radiation.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFF20C51769EF20006A49C1 /* 196-radiation.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0563A4171DC1CC00D6251A /* ACFetchNewsPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACFetchNewsPost.h; sourceTree = "<group>"; };
+		CE0563A5171DC1CC00D6251A /* ACFetchNewsPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFetchNewsPost.m; sourceTree = "<group>"; };
+		CE307A2C176705B7004ABF7F /* ACIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACIndicatorView.h; sourceTree = "<group>"; };
+		CE307A2D176705B7004ABF7F /* ACIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACIndicatorView.m; sourceTree = "<group>"; };
+		CE307A3217672082004ABF7F /* ACNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACNavigationController.h; sourceTree = "<group>"; };
+		CE307A3317672082004ABF7F /* ACNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACNavigationController.m; sourceTree = "<group>"; };
+		CE456F30176F512E000AC705 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CE456F32176F515A000AC705 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		CE4BD748172178570043E4E3 /* NSDateFormatter+ACAdditionFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+ACAdditionFormatter.h"; sourceTree = "<group>"; };
+		CE4BD749172178570043E4E3 /* NSDateFormatter+ACAdditionFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+ACAdditionFormatter.m"; sourceTree = "<group>"; };
+		CE72BE94175D7D3F003656B3 /* ACWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACWebController.h; sourceTree = "<group>"; };
+		CE72BE95175D7D3F003656B3 /* ACWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACWebController.m; sourceTree = "<group>"; };
+		CE72BE9D175E7361003656B3 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		CE9EDA961753F3BD00D2CE80 /* CustomTableView0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView0.h; sourceTree = "<group>"; };
+		CE9EDA971753F3BD00D2CE80 /* CustomTableView0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView0.m; sourceTree = "<group>"; };
+		CE9EDA981753F3BD00D2CE80 /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
+		CE9EDA991753F3BD00D2CE80 /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
+		CE9EDA9A1753F3BD00D2CE80 /* ACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACViewController.h; sourceTree = "<group>"; };
+		CE9EDA9B1753F3BD00D2CE80 /* ACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACViewController.m; sourceTree = "<group>"; };
+		CE9EDABD1757556D00D2CE80 /* CustomSubCatTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSubCatTableView.h; sourceTree = "<group>"; };
+		CE9EDABE1757556D00D2CE80 /* CustomSubCatTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSubCatTableView.m; sourceTree = "<group>"; };
+		CEA7E150177C1EFD00C06C5F /* Newstly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Newstly.xcdatamodel; sourceTree = "<group>"; };
+		CEA7E153177C349500C06C5F /* ACOperationOriginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACOperationOriginator.h; sourceTree = "<group>"; };
+		CEA7E154177C349500C06C5F /* ACOperationOriginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACOperationOriginator.m; sourceTree = "<group>"; };
+		CEA7E15B177C41A600C06C5F /* ACJSONSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACJSONSerialization.h; sourceTree = "<group>"; };
+		CEAD91071726223200638954 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CEBC022A17707F46007FEC4B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		CED24FCD17340D1E0029C5E9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CED24FCF17340EA50029C5E9 /* ACHeadLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHeadLine.h; sourceTree = "<group>"; };
+		CED24FD017340EA50029C5E9 /* ACHeadLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHeadLine.m; sourceTree = "<group>"; };
+		CED4CBA5177C8CED005A2297 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		CED4CBA6177C8CED005A2297 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		CED4CBA7177C8CED005A2297 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		CED4CBA8177C8CED005A2297 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		CED4CBAB177C9B0B005A2297 /* ACOperationSorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACOperationSorting.h; sourceTree = "<group>"; };
+		CED4CBAC177C9B0B005A2297 /* ACOperationSorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACOperationSorting.m; sourceTree = "<group>"; };
+		CED4CBAE177CA33E005A2297 /* ACChannelxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACChannelxml.h; sourceTree = "<group>"; };
+		CED4CBAF177CA33E005A2297 /* ACChannelxml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACChannelxml.m; sourceTree = "<group>"; };
+		CED4CBB1177CA358005A2297 /* ACPostxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPostxml.h; sourceTree = "<group>"; };
+		CED4CBB2177CA358005A2297 /* ACPostxml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPostxml.m; sourceTree = "<group>"; };
+		CED4CBB4177DD44B005A2297 /* ACAbstractItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACAbstractItem.h; sourceTree = "<group>"; };
+		CED4CBB5177DD44B005A2297 /* ACAbstractItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACAbstractItem.m; sourceTree = "<group>"; };
+		CED4CBB7177DD44B005A2297 /* ACNewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACNewsItem.h; sourceTree = "<group>"; };
+		CED4CBB8177DD44B005A2297 /* ACNewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACNewsItem.m; sourceTree = "<group>"; };
+		CED4CBE8177F36AE005A2297 /* ACFeedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACFeedManager.h; sourceTree = "<group>"; };
+		CED4CBE9177F36AE005A2297 /* ACFeedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACFeedManager.m; sourceTree = "<group>"; };
+		CEDBAC37172ED81D00D23CE0 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		CEE2614B172EA998008734BA /* ACCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACCustomCell.h; path = Newstly/ACCustomCell.h; sourceTree = "<group>"; };
+		CEE2614C172EA998008734BA /* ACCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACCustomCell.m; path = Newstly/ACCustomCell.m; sourceTree = "<group>"; };
+		CEE2614E172EA9E8008734BA /* ACCustCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ACCustCell.xib; path = Newstly/ACCustCell.xib; sourceTree = "<group>"; };
 		CEEE44CC1713D891000FB08D /* Newstly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Newstly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEE44CF1713D891000FB08D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEEE44D11713D891000FB08D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +123,21 @@
 		CEEE44E11713D891000FB08D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CEEE44E31713D891000FB08D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CEEE44E51713D891000FB08D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEEE44F217143CD3000FB08D /* ACChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACChannel.h; sourceTree = "<group>"; };
+		CEEE44F317143CD3000FB08D /* ACChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACChannel.m; sourceTree = "<group>"; };
+		CEEE44F517143D31000FB08D /* ACPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPost.h; sourceTree = "<group>"; };
+		CEEE44F617143D31000FB08D /* ACPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPost.m; sourceTree = "<group>"; };
+		CEEE44FA17143FA3000FB08D /* ACConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACConnection.h; sourceTree = "<group>"; };
+		CEEE44FB17143FA3000FB08D /* ACConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACConnection.m; sourceTree = "<group>"; };
+		CEFF20B51769E7D6006A49C1 /* 176-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "176-ipad.png"; sourceTree = "<group>"; };
+		CEFF20B71769E80F006A49C1 /* 190-bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "190-bank.png"; sourceTree = "<group>"; };
+		CEFF20B91769E995006A49C1 /* 166-newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "166-newspaper.png"; sourceTree = "<group>"; };
+		CEFF20BB1769EC2F006A49C1 /* stock_market_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stock_market_30.png; sourceTree = "<group>"; };
+		CEFF20BD1769ECED006A49C1 /* stats_line_chart_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats_line_chart_30.png; sourceTree = "<group>"; };
+		CEFF20BF1769ED6A006A49C1 /* 153-guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "153-guitar.png"; sourceTree = "<group>"; };
+		CEFF20C11769EE8B006A49C1 /* 180-stickynote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "180-stickynote.png"; sourceTree = "<group>"; };
+		CEFF20C31769EEBA006A49C1 /* 169-8ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "169-8ball.png"; sourceTree = "<group>"; };
+		CEFF20C51769EF20006A49C1 /* 196-radiation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "196-radiation.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +145,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE72BE9E175E7361003656B3 /* iAd.framework in Frameworks */,
+				CED24FCE17340D1E0029C5E9 /* QuartzCore.framework in Frameworks */,
+				CEDBAC38172ED81D00D23CE0 /* libxml2.dylib in Frameworks */,
+				CEAD91081726223200638954 /* CoreData.framework in Frameworks */,
 				CEEE44D01713D891000FB08D /* UIKit.framework in Frameworks */,
 				CEEE44D21713D891000FB08D /* Foundation.framework in Frameworks */,
 				CEEE44D41713D891000FB08D /* CoreGraphics.framework in Frameworks */,
@@ -48,9 +158,127 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE4BD74B1721785D0043E4E3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CE4BD748172178570043E4E3 /* NSDateFormatter+ACAdditionFormatter.h */,
+				CE4BD749172178570043E4E3 /* NSDateFormatter+ACAdditionFormatter.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		CE9925D81793FE420098B36E /* Additional Work */ = {
+			isa = PBXGroup;
+			children = (
+				CED4CBB7177DD44B005A2297 /* ACNewsItem.h */,
+				CED4CBB8177DD44B005A2297 /* ACNewsItem.m */,
+				CED4CBB4177DD44B005A2297 /* ACAbstractItem.h */,
+				CED4CBB5177DD44B005A2297 /* ACAbstractItem.m */,
+				CED4CBB1177CA358005A2297 /* ACPostxml.h */,
+				CED4CBB2177CA358005A2297 /* ACPostxml.m */,
+				CED4CBAE177CA33E005A2297 /* ACChannelxml.h */,
+				CED4CBAF177CA33E005A2297 /* ACChannelxml.m */,
+				CED4CBAB177C9B0B005A2297 /* ACOperationSorting.h */,
+				CED4CBAC177C9B0B005A2297 /* ACOperationSorting.m */,
+				CEA7E15B177C41A600C06C5F /* ACJSONSerialization.h */,
+				CEA7E153177C349500C06C5F /* ACOperationOriginator.h */,
+				CEA7E154177C349500C06C5F /* ACOperationOriginator.m */,
+			);
+			name = "Additional Work";
+			sourceTree = "<group>";
+		};
+		CE9ABD8A1732860D00CD79AF /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE44FA17143FA3000FB08D /* ACConnection.h */,
+				CEEE44FB17143FA3000FB08D /* ACConnection.m */,
+			);
+			name = Connection;
+			sourceTree = "<group>";
+		};
+		CED3152C171EE0F0007F81ED /* Dispatch Class */ = {
+			isa = PBXGroup;
+			children = (
+				CE0563A4171DC1CC00D6251A /* ACFetchNewsPost.h */,
+				CE0563A5171DC1CC00D6251A /* ACFetchNewsPost.m */,
+			);
+			name = "Dispatch Class";
+			sourceTree = "<group>";
+		};
+		CED4CBEB177F3E57005A2297 /* Management */ = {
+			isa = PBXGroup;
+			children = (
+				CED4CBE8177F36AE005A2297 /* ACFeedManager.h */,
+				CED4CBE9177F36AE005A2297 /* ACFeedManager.m */,
+			);
+			name = Management;
+			sourceTree = "<group>";
+		};
+		CED521F81737D47E003C3C8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EDA9A1753F3BD00D2CE80 /* ACViewController.h */,
+				CE9EDA9B1753F3BD00D2CE80 /* ACViewController.m */,
+				CE72BE94175D7D3F003656B3 /* ACWebController.h */,
+				CE72BE95175D7D3F003656B3 /* ACWebController.m */,
+				CE307A3217672082004ABF7F /* ACNavigationController.h */,
+				CE307A3317672082004ABF7F /* ACNavigationController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CED521F91737D487003C3C8F /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				CED4CBA5177C8CED005A2297 /* HTMLNode.h */,
+				CED4CBA6177C8CED005A2297 /* HTMLNode.m */,
+				CED4CBA7177C8CED005A2297 /* HTMLParser.h */,
+				CED4CBA8177C8CED005A2297 /* HTMLParser.m */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		CED521FA1737D4D2003C3C8F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2614E172EA9E8008734BA /* ACCustCell.xib */,
+				CEE2614B172EA998008734BA /* ACCustomCell.h */,
+				CEE2614C172EA998008734BA /* ACCustomCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		CED521FB1737D51D003C3C8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE9EDA961753F3BD00D2CE80 /* CustomTableView0.h */,
+				CE9EDA971753F3BD00D2CE80 /* CustomTableView0.m */,
+				CE9EDA981753F3BD00D2CE80 /* CustomTableView.h */,
+				CE9EDA991753F3BD00D2CE80 /* CustomTableView.m */,
+				CE9EDABD1757556D00D2CE80 /* CustomSubCatTableView.h */,
+				CE9EDABE1757556D00D2CE80 /* CustomSubCatTableView.m */,
+				CED24FCF17340EA50029C5E9 /* ACHeadLine.h */,
+				CED24FD017340EA50029C5E9 /* ACHeadLine.m */,
+				CE307A2C176705B7004ABF7F /* ACIndicatorView.h */,
+				CE307A2D176705B7004ABF7F /* ACIndicatorView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		CEEE44C31713D891000FB08D = {
 			isa = PBXGroup;
 			children = (
+				CE9925D81793FE420098B36E /* Additional Work */,
+				CED4CBEB177F3E57005A2297 /* Management */,
+				CEFF20C71769EF92006A49C1 /* images */,
+				CED521F81737D47E003C3C8F /* Controller */,
+				CED521FB1737D51D003C3C8F /* View */,
+				CE9ABD8A1732860D00CD79AF /* Connection */,
+				CED521FA1737D4D2003C3C8F /* Cell */,
+				CED521F91737D487003C3C8F /* Parser */,
+				CE4BD74B1721785D0043E4E3 /* Category */,
+				CED3152C171EE0F0007F81ED /* Dispatch Class */,
+				CEEE44F917143F71000FB08D /* Post */,
 				CEEE44D51713D891000FB08D /* Newstly */,
 				CEEE44CE1713D891000FB08D /* Frameworks */,
 				CEEE44CD1713D891000FB08D /* Products */,
@@ -68,6 +296,10 @@
 		CEEE44CE1713D891000FB08D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE72BE9D175E7361003656B3 /* iAd.framework */,
+				CED24FCD17340D1E0029C5E9 /* QuartzCore.framework */,
+				CEDBAC37172ED81D00D23CE0 /* libxml2.dylib */,
+				CEAD91071726223200638954 /* CoreData.framework */,
 				CEEE44CF1713D891000FB08D /* UIKit.framework */,
 				CEEE44D11713D891000FB08D /* Foundation.framework */,
 				CEEE44D31713D891000FB08D /* CoreGraphics.framework */,
@@ -89,6 +321,7 @@
 			isa = PBXGroup;
 			children = (
 				CEEE44D71713D891000FB08D /* Newstly-Info.plist */,
+				CEA7E14F177C1EFD00C06C5F /* Newstly.xcdatamodeld */,
 				CEEE44D81713D891000FB08D /* InfoPlist.strings */,
 				CEEE44DB1713D891000FB08D /* main.m */,
 				CEEE44DD1713D891000FB08D /* Newstly-Prefix.pch */,
@@ -97,6 +330,36 @@
 				CEEE44E51713D891000FB08D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEEE44F917143F71000FB08D /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE44F517143D31000FB08D /* ACPost.h */,
+				CEEE44F617143D31000FB08D /* ACPost.m */,
+				CEEE44F217143CD3000FB08D /* ACChannel.h */,
+				CEEE44F317143CD3000FB08D /* ACChannel.m */,
+			);
+			name = Post;
+			sourceTree = "<group>";
+		};
+		CEFF20C71769EF92006A49C1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CEBC022A17707F46007FEC4B /* logo.png */,
+				CE456F32176F515A000AC705 /* icon@2x.png */,
+				CE456F30176F512E000AC705 /* icon.png */,
+				CEFF20BB1769EC2F006A49C1 /* stock_market_30.png */,
+				CEFF20C51769EF20006A49C1 /* 196-radiation.png */,
+				CEFF20C31769EEBA006A49C1 /* 169-8ball.png */,
+				CEFF20C11769EE8B006A49C1 /* 180-stickynote.png */,
+				CEFF20BF1769ED6A006A49C1 /* 153-guitar.png */,
+				CEFF20BD1769ECED006A49C1 /* stats_line_chart_30.png */,
+				CEFF20B91769E995006A49C1 /* 166-newspaper.png */,
+				CEFF20B51769E7D6006A49C1 /* 176-ipad.png */,
+				CEFF20B71769E80F006A49C1 /* 190-bank.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +418,19 @@
 				CEEE44E21713D891000FB08D /* Default.png in Resources */,
 				CEEE44E41713D891000FB08D /* Default@2x.png in Resources */,
 				CEEE44E61713D891000FB08D /* Default-568h@2x.png in Resources */,
+				CEE2614F172EA9E8008734BA /* ACCustCell.xib in Resources */,
+				CEFF20B61769E7D6006A49C1 /* 176-ipad.png in Resources */,
+				CEFF20B81769E80F006A49C1 /* 190-bank.png in Resources */,
+				CEFF20BA1769E995006A49C1 /* 166-newspaper.png in Resources */,
+				CEFF20BC1769EC2F006A49C1 /* stock_market_30.png in Resources */,
+				CEFF20BE1769ECED006A49C1 /* stats_line_chart_30.png in Resources */,
+				CEFF20C01769ED6A006A49C1 /* 153-guitar.png in Resources */,
+				CEFF20C21769EE8B006A49C1 /* 180-stickynote.png in Resources */,
+				CEFF20C41769EEBA006A49C1 /* 169-8ball.png in Resources */,
+				CEFF20C61769EF20006A49C1 /* 196-radiation.png in Resources */,
+				CE456F31176F512E000AC705 /* icon.png in Resources */,
+				CE456F33176F515A000AC705 /* icon@2x.png in Resources */,
+				CEBC022B17707F46007FEC4B /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +443,30 @@
 			files = (
 				CEEE44DC1713D891000FB08D /* main.m in Sources */,
 				CEEE44E01713D891000FB08D /* ACAppDelegate.m in Sources */,
+				CEEE44F417143CD3000FB08D /* ACChannel.m in Sources */,
+				CEEE44F717143D31000FB08D /* ACPost.m in Sources */,
+				CEEE44FC17143FA3000FB08D /* ACConnection.m in Sources */,
+				CE0563A6171DC1CC00D6251A /* ACFetchNewsPost.m in Sources */,
+				CE4BD74A172178570043E4E3 /* NSDateFormatter+ACAdditionFormatter.m in Sources */,
+				CEE2614D172EA998008734BA /* ACCustomCell.m in Sources */,
+				CED24FD117340EA50029C5E9 /* ACHeadLine.m in Sources */,
+				CE9EDA9C1753F3BD00D2CE80 /* CustomTableView0.m in Sources */,
+				CE9EDA9D1753F3BD00D2CE80 /* CustomTableView.m in Sources */,
+				CE9EDA9E1753F3BD00D2CE80 /* ACViewController.m in Sources */,
+				CE9EDABF1757556D00D2CE80 /* CustomSubCatTableView.m in Sources */,
+				CE72BE96175D7D3F003656B3 /* ACWebController.m in Sources */,
+				CE307A2E176705B7004ABF7F /* ACIndicatorView.m in Sources */,
+				CE307A3417672082004ABF7F /* ACNavigationController.m in Sources */,
+				CEA7E151177C1EFD00C06C5F /* Newstly.xcdatamodeld in Sources */,
+				CEA7E155177C349500C06C5F /* ACOperationOriginator.m in Sources */,
+				CED4CBA9177C8CED005A2297 /* HTMLNode.m in Sources */,
+				CED4CBAA177C8CED005A2297 /* HTMLParser.m in Sources */,
+				CED4CBAD177C9B0B005A2297 /* ACOperationSorting.m in Sources */,
+				CED4CBB0177CA33F005A2297 /* ACChannelxml.m in Sources */,
+				CED4CBB3177CA358005A2297 /* ACPostxml.m in Sources */,
+				CED4CBB6177DD44B005A2297 /* ACAbstractItem.m in Sources */,
+				CED4CBB9177DD44C005A2297 /* ACNewsItem.m in Sources */,
+				CED4CBEA177F36AF005A2297 /* ACFeedManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +511,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -235,6 +536,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -243,9 +545,19 @@
 		CEEE44EA1713D891000FB08D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Newstly/Newstly-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "Newstly/Newstly-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,10 +566,24 @@
 		CEEE44EB1713D891000FB08D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Moses Ayankoya (N8NU8TSBSQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Moses Ayankoya (N8NU8TSBSQ)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Newstly/Newstly-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "Newstly/Newstly-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3D23BD02-84A3-4B8B-A35F-DEE2BD408DEE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3D23BD02-84A3-4B8B-A35F-DEE2BD408DEE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -281,8 +607,22 @@
 				CEEE44EB1713D891000FB08D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEA7E14F177C1EFD00C06C5F /* Newstly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEA7E150177C1EFD00C06C5F /* Newstly.xcdatamodel */,
+			);
+			currentVersion = CEA7E150177C1EFD00C06C5F /* Newstly.xcdatamodel */;
+			path = Newstly.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CEEE44C41713D891000FB08D /* Project object */;
 }

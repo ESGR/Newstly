@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AbstractItem" representedClassName="ACAbstractItem" isAbstract="YES" syncable="YES">
+        <attribute name="contentStory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="htmlContentURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="publicationDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sourceLogo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xmlSourceURL" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="NewsItem" representedClassName="ACNewsItem" parentEntity="AbstractItem" syncable="YES"/>
+    <elements>
+        <element name="AbstractItem" positionX="-3485" positionY="-1399" width="155" height="163"/>
+        <element name="NewsItem" positionX="-3710" positionY="-1372" width="128" height="43"/>
+    </elements>
+</model>
