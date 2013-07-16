@@ -90,10 +90,8 @@
         _errorLabel.text = @"";
         if (!error) {
             
-            _channel = object;
-            
-       /*     ACChannel *sortChannel = [[ACChannel alloc] init];
-            _channel = [sortChannel sortItemsUsingChannelWithOtherOtherChannel:object]; */
+            ACChannelxml *sortChannel = [[ACChannelxml alloc] init];
+            _channel = [sortChannel sortItemsUsingChannelWithOtherOtherChannel:object]; 
             
             [myFeedTableView reloadData];
         }else{
@@ -838,7 +836,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath{
         
        // [cell.shortStory loadHTMLString:postHeaderContent baseURL:nil];
         cell.headLine.text = [post title];
-      //  cell.dateLabel.text = [dateformatter stringFromDate:[post publicationDate]];
+        cell.dateLabel.text = [dateformatter stringFromDate:[post publicationDate]];
         
      }    
     return cell;

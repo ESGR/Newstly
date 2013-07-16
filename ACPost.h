@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "ACJSONSerialization.h"
 
-@interface ACPost : NSObject<NSXMLParserDelegate, ACJSONSerialization>
+@interface ACPost : NSObject< ACJSONSerialization>
 {
     NSMutableString *currentString;
 }

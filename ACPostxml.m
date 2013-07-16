@@ -21,6 +21,8 @@
 @synthesize parentDelegateParser = _parentDelegateParser;
 @synthesize title = _title;
 @synthesize link = _link;
+@synthesize shortStory = _shortStory;
+@synthesize publicationDate = _publicationDate;
 
 
 #pragma mark -
@@ -43,7 +45,15 @@ qualifiedName:(NSString *)qName
         self.link = _currentString;
         
     
+    }else if ([elementName isEqual:@"pubDate"])
+    {
+        _currentString = [[NSMutableString alloc] init];
+    }else if ([elementName isEqualToString:@"description"]){
+        
+        _currentString = [[NSMutableString alloc] init];
+        [self setShortStory:_currentString];
     }
+
     
 }
 
@@ -60,6 +70,18 @@ didEndElement:(NSString *)elementName
  namespaceURI:(NSString *)namespaceURI
 qualifiedName:(NSString *)qName
 {
+    
+    if ([elementName isEqual:@"pubDate"]) {
+        static NSDateFormatter *dateFormatter = nil;
+        
+        if (!dateFormatter) {
+            
+            dateFormatter = [[NSDateFormatter alloc] init];
+            [dateFormatter setDateFormat:@"EEE, dd MMM yyyy HH:mm:ss z"];
+        }
+        
+        [self setPublicationDate:[dateFormatter dateFromString:_currentString]];
+    }
     
     _currentString = nil;
     if ([elementName isEqualToString:@"item"] || [elementName isEqualToString:@"entry"]) {

@@ -13,4 +13,5 @@
 @property (weak, nonatomic) id parentParserDelegate;
 @property (strong, readonly, nonatomic) NSMutableArray * items;
 
+-(ACChannelxml *)sortItemsUsingChannelWithOtherOtherChannel:(ACChannelxml *)otherChannel;
 @end

@@ -26,6 +26,31 @@
     return self;
 }
 
+
+-(ACChannelxml *)sortItemsUsingChannelWithOtherOtherChannel:(ACChannelxml *)otherChannel{
+    
+    
+    for (ACPostxml * post in [otherChannel items]){
+        
+        if (![[self items] containsObject:post]) {
+            
+            //if ([post publicationDate] == [NSDate date]) {
+            
+            [[self items] addObject:post];
+            //}
+            
+        }
+    }
+    
+    
+    [[self items] sortUsingComparator:^NSComparisonResult(id obj1, id obj2){
+        
+        return [[obj2 publicationDate] compare:[obj1 publicationDate]];
+    }];
+    
+    return self;
+}
+
 #pragma mark -
 #pragma mark - NSXMLParser Delegate Methods
 
